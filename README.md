@@ -1,4 +1,4 @@
-# Data Analysis with Python
+# Data Analysis with Python  
 
 This repository contains my personal practice project in Python, using real-world datasets related to weather and traffic in Seoul, South Korea.
 
