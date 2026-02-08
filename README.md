@@ -1,41 +1,77 @@
-# Data Analysis with Python  
+# Data Analysis with Python
 
-This repository contains my personal practice project in Python, using real-world datasets related to weather and traffic in Seoul, South Korea.
+This repository contains a structured set of Python-based data analysis projects,
+covering the full workflow from data loading and cleaning to visualization,
+exploratory analysis, and statistical inference.
 
-## Objective
+Rather than isolated practice files, the notebooks are organized to reflect
+a **progressive learning and application path** in data analysis.
 
-The main goal of this project is to strengthen my hands-on skills in data cleaning, exploratory analysis, and basic modeling by working with public datasets.  
-In particular, I explored how traffic volume varies by weather conditions and vehicle types, using real data collected in Seoul throughout 2023–2024.
+---
 
-## Datasets Used
+## Repository Structure & Learning Path
 
-- **Seoul Facilities Corporation – Vehicle Type Traffic Volume Data (2023–2024)**  
-- **Korea Meteorological Administration – Daily Weather Data (2023)**
+### 1. Foundations of Data Analysis
+These notebooks focus on building core Python and pandas skills
+required for data analysis.
 
-All datasets were publicly available and sourced from open government data portals.
+- **Foundations of Python-Based Data Analysis**  
+  Basic Python syntax, data structures, and introductory data manipulation.
+
+- **Data Loading and Cleaning in Python**  
+  Importing datasets, handling missing values, and preparing data
+  for analysis.
+
+---
+
+### 2. Exploratory Analysis & Visualization
+These notebooks apply foundational skills to explore real-world-style datasets
+and extract descriptive insights.
+
+- **Sales Data Visualization Practice with Python**  
+  Visualization of sales patterns using Python, focusing on
+  trend identification and categorical comparisons.
+
+---
+
+### 3. Statistical Inference & Hypothesis Testing
+These notebooks demonstrate the application of classical statistical tests
+to answer specific analytical questions.
+
+- **Two-Sample t-test: Gender Difference in Sleep Duration**  
+  Testing whether average sleep duration differs by gender.
+
+- **One-Way ANOVA: Exercise Frequency Across Academic Years**  
+  Comparing mean exercise frequencies across multiple groups.
+
+- **Chi-Square Test: Association Between Breakfast Habit and BMI**  
+  Examining the relationship between categorical variables.
+
+---
+
+## Methods & Concepts Covered
+
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Data visualization
+- Hypothesis formulation
+- t-test, ANOVA, and chi-square test
+- Interpretation of statistical results under uncertainty
+
+---
 
 ## Tools & Libraries
 
-- Python (via Google Colab)  
-- pandas  
-- matplotlib / seaborn  
-- scikit-learn  
+- Python (Google Colab)
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- SciPy
 
-## Key Workflows
-
-- Merging time-series datasets from different sources  
-- Handling missing values and standardizing date formats  
-- Visualizing traffic and weather trends (daily, seasonal)  
-- Exploring relationships between precipitation and vehicle traffic  
-- Building a simple classification model to predict traffic conditions
-
-## Background
-
-This project was created as part of my self-directed learning while taking online Python courses.  
-Although I come from a non-computer science background, I was motivated to apply what I learned to real data and gain practical experience.  
-This analysis also reflects my interest in how data can be used to understand urban systems and inform better decision-making.
+---
 
 ## Notes
 
-This is a personal, non-commercial project.  
-All data used is publicly available and does not contain any sensitive or proprietary information.
+All datasets used in this repository are either publicly available
+or synthetically generated for analytical demonstration.
+This repository is intended for educational and analytical purposes
